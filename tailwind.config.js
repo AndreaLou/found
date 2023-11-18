@@ -23,7 +23,7 @@ module.exports = {
       '9xl': ['8rem', '1'],
     },
     fontFamily: {
-      'sans': ['proxima-nova', 'ui-sans-serif'],
+      'sans': ['Open Sans', 'sans-serif'],
       'sans-tight': ['proxima-nova-condensed', 'ui-sans-serif'],
       'mono': ['Inconsolata', 'ui-mono', 'monospace'],
       'soft': ['proxima-soft', 'ui-sans-serif'],
@@ -39,6 +39,8 @@ module.exports = {
         '5p': '5%',
         '10p': '10%',
         '15p': '15%',
+        '50p': '50%',
+        '100p': '100%'
       },
       aspectRatio: {
         '5/3': '5 / 3',

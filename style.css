@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+ @apply text-stone-800;
 }
 
 /* body *{
@@ -40,4 +41,8 @@ body h4 {
 
 footer a { 
   display: block;
+}
+
+input,textarea{
+  background-color: inherit;
 }
