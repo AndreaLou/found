@@ -1,0 +1,43 @@
+
+/* ----------- Color Variables --------- */
+/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+
+html {
+  scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+}
+
+/* body *{
+  border: 1px solid;
+} */
+
+body 
+section {
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+body h1,
+body h2,
+body h3, 
+body h4 {
+  margin-bottom: 1em;
+}
+
+.vertical-text {
+  writing-mode:vertical-rl;
+  text-orientation:mixed; 
+}
+
+footer a { 
+  display: block;
+}
